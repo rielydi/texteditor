@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/codespace/texteditor/texteditor/texteditor.csproj": {}
+    "C:\\dev\\texteditor\\texteditor.csproj": {}
   },
   "projects": {
-    "/home/codespace/texteditor/texteditor/texteditor.csproj": {
+    "C:\\dev\\texteditor\\texteditor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/codespace/texteditor/texteditor/texteditor.csproj",
+        "projectUniqueName": "C:\\dev\\texteditor\\texteditor.csproj",
         "projectName": "texteditor",
-        "projectPath": "/home/codespace/texteditor/texteditor/texteditor.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/home/codespace/texteditor/texteditor/obj/",
+        "projectPath": "C:\\dev\\texteditor\\texteditor.csproj",
+        "packagesPath": "C:\\Users\\rielydi.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\texteditor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rielydi.dias\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,31 +43,16 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.19, 6.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.19, 6.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.19, 6.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.305/sdk/7.0.305/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.313\\RuntimeIdentifierGraph.json"
         }
       }
     }

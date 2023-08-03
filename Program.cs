@@ -39,7 +39,7 @@ namespace textEditor
             Console.WriteLine("qual caminho do arquivo deseja abrir?");
             string path = Console.ReadLine();
 
-            using(var file = new StreamReader(path))
+            using (var file = new StreamReader(path))
             {
                 string text = file.ReadToEnd();
                 Console.WriteLine(text);
@@ -76,23 +76,24 @@ namespace textEditor
 
         }
 
-        static void Salvar( string text) //o string text a gente vai receber dentro do parametro salvar para poder salvar o arquivo.
+        static void Salvar(string conteudo) //o string text a gente vai receber dentro do parametro salvar para poder salvar o arquivo.
         {
             Console.Clear();
             Console.WriteLine("Qual caminho para salvar o arquivo? ");
             var path = Console.ReadLine(); //o Path é caminho ou seja, criando a variavel caminho. vai ser VAR pq o caminho pode ser qualquer um
-           //toda vez que a gente trabalha com arquivos nós precisamos abrir e fechar o arquivo. se abrir e deixar aberto, outra pessoa não consegue abrir.
-           //podemos abrir um arquivo usando o StreamReader e pode abrir um arquivo para escrita usando o StreamWriter
-           //ou seja, utilizando o Using() o que ele faz ?- ele abre e fecha o arquivo. todo objeto que passar dentro do Using() ele vai abrir e fechar o objeto automaticamente. ele vai criar usar e ja fechar.
-           using (var file = new StreamWriter(path)) //file=arquivo stream= fluxo. Writer=escrita. (StreamWriter= fluxo de escrita.) 
-           //o StreamWriter, sempre vai pedir um caminho para o arquivo. que no caso aqui é o path
+                                           //toda vez que a gente trabalha com arquivos nós precisamos abrir e fechar o arquivo. se abrir e deixar aberto, outra pessoa não consegue abrir.
+                                           //podemos abrir um arquivo usando o StreamReader e pode abrir um arquivo para escrita usando o StreamWriter
+                                           //ou seja, utilizando o Using() o que ele faz ?- ele abre e fecha o arquivo. todo objeto que passar dentro do using() ele vai abrir e fechar o objeto automaticamente. ele vai criar usar e ja fechar.
+            using(var file = new StreamWriter(path)) //file=arquivo stream= fluxo. Writer=escrita. (StreamWriter= fluxo de escrita.) 
+                                                      //o StreamWriter, sempre vai pedir um caminho para o arquivo. que no caso aqui é o path
             {
-                file.Write(text); // o que a gente quer escrever dentro desse arquivo, o nosso text
+                file.WriteLine(conteudo); // o que a gente quer escrever dentro desse arquivo, o nosso text
+
+            }
                 Console.WriteLine($"arquivo {path} salvo com sucesso!!");
                 Console.ReadLine();
                 Menu();
-                
-            }
         }
+
     }
 }

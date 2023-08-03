@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D1o/ab2FZ+fwyHtw21Z+YWSLcFgL09q4y9fT62/eAMeakWgAARocsQ2pXL9V5F5ZIrn8zGK3jt+p3ULARW50Tw==",
+  "dgSpecHash": "9zXhKR/PbckHNEjTy/oSj9Fo41M9gYasordfbzATzC82v1rBpPLrfU7kYoSOUGe68BwAjnlkrlZUz+KoFBat9Q==",
   "success": true,
-  "projectFilePath": "/home/codespace/texteditor/texteditor/texteditor.csproj",
-  "expectedPackageFiles": [
-    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/6.0.19/microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.19/microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.19/microsoft.netcore.app.host.linux-x64.6.0.19.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\dev\\texteditor\\texteditor.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
